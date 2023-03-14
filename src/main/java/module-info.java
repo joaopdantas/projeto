@@ -6,6 +6,6 @@ module com.projeto.projeto {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.projeto.projeto to javafx.fxml;
-    exports com.projeto.projeto;
+    opens com.projeto to javafx.fxml;
+    exports com.projeto;
 }
