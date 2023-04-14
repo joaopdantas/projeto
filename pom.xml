@@ -42,6 +42,12 @@
             </exclusions>
         </dependency>
         <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>javax.persistence-api</artifactId>
+            <version>2.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>org.kordamp.bootstrapfx</groupId>
             <artifactId>bootstrapfx-core</artifactId>
             <version>0.4.0</version>
@@ -58,6 +64,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>12.2.0.jre11</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>

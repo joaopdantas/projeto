@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DdlMappings">
     <mapping uuid="7fa73429-7296-45e0-a6ad-b69de39e2d08" name="projetoei@localhost Mapping">
-      <data-sources db="92e611ce-859b-4a7d-9972-b6f474ae8e1f" />
+      <data-sources db="92e611ce-859b-4a7d-9972-b6f474ae8e1f" ddl="fa298213-5955-4613-8e62-0ac9d0e617f6" />
       <scope>
         <node kind="database" qname="projetoei" />
       </scope>

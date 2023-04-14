@@ -5,6 +5,7 @@ module com.projeto.projeto {
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
+    requires java.sql;
 
     opens com.projeto to javafx.fxml;
     exports com.projeto;
